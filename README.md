@@ -22,8 +22,6 @@
   <p>An OSINT framework mainly for peeking at Google accounts.! </p>
  <li><a href="https://github.com/fastfire/deepdarkCTI">DeepDark CTI</a></li>
   <p>Collection of Cyber Threat Intelligence sources from the deep and dark web.</p>
- <li><a href="https://github.com/vil/H4X-Tools/blob/master/readme.md">H4X-Tools</a></li>
-  <p>Toolkit for scraping, OSINT and more.</p>
  <li><a href="https://bellingcat.gitbook.io/toolkit">Bellingcat Toolkit!</a></li>
    <p>Bellingcat Toolkit offers various very efficient geolocation resources.! (OSM!)</p>
  <li><a href="https://github.com/lanmaster53/recon-ng">Recon-ng</a></li>
