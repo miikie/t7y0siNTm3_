@@ -1,0 +1,86 @@
+QWidget {
+    background-color: #0b0f1a;
+    color: #d9e7ff;
+    font-family: "Segoe UI";
+}
+
+QMainWindow {
+    background-color: #05070d;
+}
+
+QTabWidget::pane {
+    border: 1px solid #223a59;
+    top: -1px;
+    background: #0b0f1a;
+}
+
+QTabBar::tab {
+    background: #10182a;
+    border: 1px solid #223a59;
+    border-bottom: none;
+    padding: 8px 14px;
+    margin-right: 2px;
+}
+
+QTabBar::tab:selected {
+    background: #18345f;
+    color: #ffffff;
+}
+
+QGroupBox {
+    border: 1px solid #2a4568;
+    margin-top: 10px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+QGroupBox::title {
+    subcontrol-origin: margin;
+    left: 10px;
+    padding: 0 4px;
+    color: #9cc2ff;
+}
+
+QFrame#panel {
+    border: 1px solid #284161;
+    border-radius: 4px;
+    background-color: #101a2f;
+}
+
+QLabel#banner {
+    font-size: 16px;
+    font-weight: bold;
+    color: #8ec8ff;
+}
+
+QLabel#statusPositive {
+    color: #7ef7b0;
+    font-weight: bold;
+}
+
+QLabel#statusWarning {
+    color: #ffd37e;
+    font-weight: bold;
+}
+
+QTableWidget {
+    gridline-color: #2b466b;
+    background-color: #0f182a;
+    alternate-background-color: #132038;
+    selection-background-color: #25568f;
+}
+
+QHeaderView::section {
+    background-color: #1a2a45;
+    color: #cfe2ff;
+    padding: 4px;
+    border: 1px solid #2a4568;
+}
+
+QPlainTextEdit, QTextEdit {
+    border: 1px solid #2a4568;
+    background-color: #091223;
+    color: #b9d5ff;
+    font-family: "Consolas", "Courier New", monospace;
+    font-size: 12px;
+}
